@@ -1,0 +1,8 @@
+2026-11-07 18:23:06.245620-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CARTAO" not found; SQL statement:
+insert into cartao(id,bandeira, data_cadastro,nome)
+values('54e22589-07d1-4478-aec0-c4ad3a308c79','VISA',now(), 'Nubank Platinum' [42102-240]
+2026-11-07 18:23:42.180704-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into tb_cartao(id,bandeira, data_cadastro,nome)\000d\000avalues('54e22589-07d1-4478-aec0-c4ad3a308c79','VISA',now(), 'Nubank Platinum'[*]"; expected "[, ., ::, AT, FORMAT, *, /, %, +, -, ||, NOT, IS, ILIKE, REGEXP, AND, OR, ,, )"; SQL statement:
+insert into tb_cartao(id,bandeira, data_cadastro,nome)
+values('54e22589-07d1-4478-aec0-c4ad3a308c79','VISA',now(), 'Nubank Platinum' [42001-240]
